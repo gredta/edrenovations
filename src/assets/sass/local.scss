@@ -77,12 +77,14 @@
         .cs-title {
             max-width: calc(800 / 16 * 1rem);
             text-align: left;
+            margin: auto;
         }
 
         .cs-text {
             margin-bottom: calc(16 / 16 * 1rem);
             max-width: calc(750 / 16 * 1rem);
             text-align: left;
+            
 
             &:last-of-type {
                 margin-bottom: calc(32 / 16 * 1rem);
@@ -431,6 +433,8 @@
             margin-bottom: calc(40 / 16 * 1rem);
             max-width: calc(621 / 16 * 1rem);
             text-align: center;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .cs-image-group {
@@ -526,6 +530,8 @@
         #gallery {
             .cs-title {
                 color: var(--bodyTextColorWhite);
+                margin-left: auto;
+                margin-right: auto;
             }
         }
     }
@@ -556,6 +562,8 @@
         .cs-title {
             max-width: calc(700 / 16 * 1rem);
             text-align: center;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .cs-text {
@@ -563,11 +571,13 @@
             margin-bottom: clamp(5.5em, 10.2vw, 6.5em);
             max-width: calc(650 / 16 * 1rem);
             text-align: center;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .cs-card-group {
             /* 48px - 64px */
-            margin: 0 auto clamp(3rem, 5vw, 4rem);
+            margin:  auto clamp(3rem, 5vw, 4rem);
             padding: 0;
         }
 
